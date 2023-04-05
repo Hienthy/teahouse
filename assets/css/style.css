@@ -478,9 +478,9 @@ html {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px;
     line-height: normal;
-    word-spacing: 2px;
+    word-spacing: 2px; */
 }
 
 #main .content_5-paragraph {
@@ -938,9 +938,9 @@ html {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px;
     line-height: normal;
-    word-spacing: 2px;
+    word-spacing: 2px; */
 }
 
 #main .infor-menu h3,
