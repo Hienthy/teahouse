@@ -339,6 +339,7 @@ html {
     width: 100%;
     border: 1px solid #ebebeb;
     margin-bottom: -8px;
+    border-radius: 10px;
 }
 
 #main .content_3-description {
@@ -687,6 +688,7 @@ html {
     border: 1px solid #ebebeb;
     margin-bottom: -7px;
     height: 263px;
+    border-radius: 10px;
 }
 
 .product_description {
