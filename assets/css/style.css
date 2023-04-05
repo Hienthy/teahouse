@@ -6,7 +6,7 @@
 
 html {
     font-size: 14px;
-    font-family: "Quicksand",sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: #282828;
     line-height: 1.7;
 }
@@ -19,9 +19,8 @@ html {
 }
 
 /* ---- */
-#container {
+#container {}
 
-}
 /* --- */
 
 /* header */
@@ -29,7 +28,7 @@ html {
     border-bottom: 1px solid #EBEBEB;
 }
 
-#header .header-nav{
+#header .header-nav {
     /* height: 45px; */
     background-color: #4d8a54;
 }
@@ -82,7 +81,7 @@ html {
     border: none;
     font-size: 15px;
     padding: 0 40px 0 15px;
-    font-family: "Quicksand",sans-serif;
+    font-family: "Quicksand", sans-serif;
     outline: none;
     /* margin-right: 10px; */
 }
@@ -180,12 +179,11 @@ html {
 #header .menu_right {
     margin-right: -15px;
 }
+
 /* --- */
 
 /* main */
-#main {
-    
-}
+#main {}
 
 #main .banner {
     /* margin-bottom: 83px; */
@@ -491,6 +489,7 @@ html {
 #main .content_6-img {
     width: 20%;
 }
+
 /* --- */
 
 /* footer */
@@ -518,9 +517,7 @@ html {
     margin-left: -15px;
 }
 
-#footer .footer_content_1-logo {
-
-}
+#footer .footer_content_1-logo {}
 
 #footer .footer_content_1-description {
     margin: 27px 0 15px;
@@ -624,13 +621,12 @@ html {
     font-size: 15px;
     font-weight: 600;
 }
+
 /* --- */
 
 /* Giới thiệu */
 
-#content {
-
-}
+#content {}
 
 .content-heading {
     font-weight: 500;
@@ -653,9 +649,7 @@ html {
 
 /* sản phẩm */
 
-#product {
-
-}
+#product {}
 
 #product .product_heading {
     text-transform: uppercase;
@@ -759,6 +753,7 @@ html {
 
 #menu .menu_description {
     text-align: center;
+    margin-bottom: 32px;
 }
 
 #menu .menu_description-title {
@@ -826,7 +821,7 @@ html {
     width: 100%;
 }
 
-#contact .contact_information{
+#contact .contact_information {
     width: 50%;
     padding-left: 70px;
 }
@@ -856,7 +851,7 @@ html {
     margin-top: 20px;
 }
 
-#contact .contact_information-address .iconify { 
+#contact .contact_information-address .iconify {
     margin-right: 20px;
     margin-bottom: -2px;
     margin-top: 4px;
@@ -892,8 +887,8 @@ html {
     background: #4d8a54;
     color: #fff;
     font-size: 17px;
-    height: 50px ;
-    line-height: 50px ;
+    height: 50px;
+    line-height: 50px;
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
@@ -908,4 +903,3 @@ html {
     border-color: #4d8a54;
     color: #4d8a54;
 }
-
