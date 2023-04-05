@@ -809,6 +809,7 @@ html {
 /* contact */
 #contact {
     display: flex;
+    margin-bottom: 64px;
 }
 
 #contact .contact_address {
@@ -828,7 +829,7 @@ html {
 
 #contact .contact_information-title {
     margin-bottom: -5px;
-    margin-left: 110px;
+    margin-left: 154px;
 }
 
 #contact .contact_information-heading {
@@ -837,6 +838,12 @@ html {
     text-transform: uppercase;
     margin-top: -20px;
     letter-spacing: -2px;
+    text-align: center;
+}
+
+#contact .contact_information-head {
+    text-align: center;
+    font-size: 24px;
 }
 
 #contact .contact_information-description {
