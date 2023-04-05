@@ -470,7 +470,7 @@ html {
 }
 
 #main .content_5-description {
-    margin-top: 12px;
+    margin-top: 32px;
 }
 
 #main .content_5-heading {
@@ -951,6 +951,7 @@ html {
     padding-bottom: 15px;
     text-transform: uppercase;
     position: relative;
+    margin-bottom: 24px;
 }
 
 #main .infor-menu h3::before,
