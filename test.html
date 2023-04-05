@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div id="container">
+    <div id="main">
         <!-- begin header -->
         <div id="header" class="header-border">
             <!-- begin nav -->
@@ -55,76 +55,87 @@
                 <ul class="menu_left">
                     <li><a href="./index.html">Trang chủ</a></li>
                     <li><a href="./gioithieu.html">Giới thiệu</a></li>
-                    <li><a href="./sanpham.html">
-                            Sản phẩm
-                            <span class="iconify menu-down" data-icon="bi:caret-down-fill"></span>
-                        </a></li>
                     <li><a href="./thucdon.html">Thực đơn</a></li>
+                    <li><a href="./tintuc.html">Tin tuc</a></li>
                     <li><a href="./lienhe.html">Liên hệ</a></li>
                 </ul>
             </div>
             <!-- end menu -->
         </div>
         <!-- end header -->
-        <p class="content-heading mw-1140">Trang chủ / <span>Sản phẩm</span></p>
+        <p class="content-heading mw-1140">Trang chủ / <span>Tin tức</span></p>
         <!-- begin content -->
-        <div id="product" class="mw-1140">
-            <h2 class="product_heading">Tất cả sản phẩm</h2>
-            <div class="product_all">
-                <div class="product_list">
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/bánh cafe phomai.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">BÁNH CÀ PHÊ PHOMAI</p>
-                        </div>
-                    </div>
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/tiramisu.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">TIRAMISU</p>
-                        </div>
-                    </div>
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/3.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">CARAMEL PHOMAI</p>
-                        </div>
-                    </div>
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/4.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">BÔNG LAN CUỘN TRÀ XANH</p>
-                        </div>
+        <!-- <div id="content" class="mw-1140"> -->
+        <div class="main_content_5 mw-1140">
+            <!-- <div class="content_5-header">
+                <img src="./assets/img/logo/title_base.webp" alt="" class="content-logo">
+                <h2 class="content_1-title">Danh mục sản phẩm</h2>
+            </div> -->
+            <div class="content_5_information">
+                <div class="content_5-news">
+                    <img src="./assets/img/content_5-img/untitled-1.webp" alt="" class="content_5-img">
+                    <div class="content_5-description">
+                        <h3 class="content_5-heading">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà
+                            phê chưa?</h3>
+                        <p class="content_5-paragraph">Cốc cafe vị đăng đắng, lẫn thêm chút ngọt bùi của sữa đặc sao
+                            mà gây nghiện đến thế. Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới
+                            tràn đầy năng lượng với người trẻ, sẵn sàng ch...</p>
                     </div>
                 </div>
-                <div class="product_list">
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/7.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">SMOOTHIES DÂU</p>
-                        </div>
+                <div class="content_5-news">
+                    <img src="./assets/img/content_5-img/untitled-5.webp" alt="" class="content_5-img">
+                    <div class="content_5-description">
+                        <h3 class="content_5-heading">Uống 1-4 tách cà phê mỗi ngày giúp bệnh nhân ung thư kéo dài
+                            sự sống</h3>
+                        <p class="content_5-paragraph">Uống từ một đến bốn tách cà phê mỗi ngày có thể giúp bệnh
+                            nhân ung thư đại trực tràng giai đoạn cuối sống lâu hơn và làm chậm sự tiến triển của
+                            bệnh. Phát hiện này được các nhà khoa học rút ra từ ...
+                        </p>
                     </div>
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/8.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">SMOOTHIES DÂU CHUỐI</p>
-                        </div>
-                    </div>
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/9.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">LATTE</p>
-                        </div>
-                    </div>
-                    <div class="product_infomation">
-                        <img src="./assets/img/product_img/10.webp" alt="" class="product_img">
-                        <div class="product_description">
-                            <p class="product_description-name">ESPRESSO</p>
-                        </div>
+                </div>
+                <div class="content_5-news">
+                    <img src="./assets/img/content_5-img/untitled-3.webp" alt="" class="content_5-img">
+                    <div class="content_5-description">
+                        <h3 class="content_5-heading">Dùng cốc giấy đựng cà phê nóng, thứ bạn uống đầy ắp những thứ
+                            đáng sợ này</h3>
+                        <p class="content_5-paragraph">Đối với nhiều người, một ngày mới chỉ có thể khởi đầu tốt đẹp
+                            bằng một tách cà phê nóng. Nhờ cafein, bộ não dường như không thể nhận được tín hiệu
+                            "mệt mỏi", từ đó tạo cho con người ta một nguồn n...
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="main_content_5 mw-1140">
+            <!-- <div class="content_5-header">
+                <img src="./assets/img/logo/title_base.webp" alt="" class="content-logo">
+                <h2 class="content_1-title">Danh mục sản phẩm</h2>
+            </div> -->
+            <div class="content_5_information">
+                <div class="content_5-news">
+                    <img src="./assets/img/content_5-img/untitled-1.webp" alt="" class="content_5-img">
+                    <div class="content_5-description">
+                        <h3 class="content_5-heading">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà
+                            phê chưa?</h3>
+                        <p class="content_5-paragraph">Cốc cafe vị đăng đắng, lẫn thêm chút ngọt bùi của sữa đặc sao
+                            mà gây nghiện đến thế. Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới
+                            tràn đầy năng lượng với người trẻ, sẵn sàng ch...</p>
+                    </div>
+                </div>
+                <div class="content_5-news">
+                    <img src="./assets/img/content_5-img/untitled-5.webp" alt="" class="content_5-img">
+                    <div class="content_5-description">
+                        <h3 class="content_5-heading">Uống 1-4 tách cà phê mỗi ngày giúp bệnh nhân ung thư kéo dài
+                            sự sống</h3>
+                        <p class="content_5-paragraph">Uống từ một đến bốn tách cà phê mỗi ngày có thể giúp bệnh
+                            nhân ung thư đại trực tràng giai đoạn cuối sống lâu hơn và làm chậm sự tiến triển của
+                            bệnh. Phát hiện này được các nhà khoa học rút ra từ ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
         <!-- end content -->
 
         <!-- begin footer -->
@@ -169,8 +180,10 @@
             </div>
         </div>
         <!-- end footer -->
+
     </div>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
 </body>
 
 </html>
